@@ -21,6 +21,23 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Akun Demo / Kredensial Testing
+
+Sebelum mulai login ke aplikasi, silakan jalankan perintah berikut untuk menyegarkan database dan mengisi data demo (seeding):
+
+```bash
+php artisan migrate:fresh --seed
+```
+
+Berikut adalah daftar akun demo yang tersedia setelah proses seeding selesai dijalankan:
+
+| Role | Email | Password |
+| --- | --- | --- |
+| Admin | `admin@seapedia.com` | `password` |
+| Multi-Role (Seller, Buyer, Driver) | `multi@seapedia.com` | `password` |
+| Buyer Only | `buyer@seapedia.com` | `password` |
+| Seller Only | `seller@seapedia.com` | `password` |
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
